@@ -351,3 +351,10 @@ MigrationBackup/
 BrezyWeather/.DS_Store
 BrezyWeather/.vscode/launch.json
 BrezyWeather/.vscode/tasks.json
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/terraform.tfvars
+infra/.terraform.lock.hcl

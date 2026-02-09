@@ -1,0 +1,11 @@
+# Copy this file to terraform.tfvars and fill in actual values.
+# NEVER commit terraform.tfvars -- it contains secrets.
+
+resource_group_name      = "rg-brezyweather"
+location                 = "eastus"
+storage_account_name     = "brezyweatherlogsarchive"
+datadog_api_key          = "YOUR_DATADOG_API_KEY"
+datadog_app_key          = "YOUR_DATADOG_APP_KEY"
+datadog_site             = "datadoghq.com"
+log_index_retention_days = 90
+archive_retention_days   = 365
